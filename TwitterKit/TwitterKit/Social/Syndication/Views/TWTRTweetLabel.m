@@ -82,7 +82,7 @@
         return;
     }
 
-    TWTRTweetPresenter *presenter = [TWTRTweetPresenter presenterForStyle:TWTRTweetViewStyleCompact];
+    TWTRTweetPresenter *presenter = [TWTRTweetPresenter presenterForStyle:TWTRTweetViewStyleRegular];
 
     NSString *text = [presenter textForTweet:tweet];
 
